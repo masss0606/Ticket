@@ -1,0 +1,11 @@
+[2026-10-25 22:58:13.363] [python.exe -m unittest:14232] [stdout] [日志] 本次运行日志: D:\Ticket\logs\python_20261025_225813_360105_14232.log
+[2026-10-25 22:58:13.363] [python.exe -m unittest:14232] [gui] [gui] 本次运行日志: D:\Ticket\logs\python_20261025_225813_360105_14232.log
+[2026-10-25 22:58:13.365] [python.exe -m unittest:14232] [gui] [gui] 检测 Token: 正在读取最新凭据并联网校验…
+[2026-10-25 22:58:13.370] [python.exe -m unittest:14232] [gui] [gui] Token 检测结果 [22:58:13]: 有效 | HTTP=200 | code=200 | 校验通过
+[2026-10-25 22:58:13.376] [python.exe -m unittest:14232] [gui] [gui] 本次运行日志: D:\Ticket\logs\python_20261025_225813_360105_14232.log
+[2026-10-25 22:58:13.377] [python.exe -m unittest:14232] [gui] [gui] 检测 Token: 正在读取最新凭据并联网校验…
+[2026-10-25 22:58:13.381] [python.exe -m unittest:14232] [gui] [gui] Token 检测结果 [22:58:13]: 未配置 | HTTP=- | code=- | 未配置 Token，请先点击刷新 Token；未发送校验请求
+[2026-10-25 22:58:13.387] [python.exe -m unittest:14232] [gui] [gui] 本次运行日志: D:\Ticket\logs\python_20261025_225813_360105_14232.log
+[2026-10-25 22:58:13.389] [python.exe -m unittest:14232] [gui] [gui] 检测 Token: 正在读取最新凭据并联网校验…
+[2026-10-25 22:58:13.394] [python.exe -m unittest:14232] [gui] [gui] Token 检测结果 [22:58:13]: 检测失败 | HTTP=None | code=None | 连接超时
+[2026-10-25 22:58:13.400] [python.exe -m unittest:14232] [gui] [gui] 本次运行日志: D:\Ticket\logs\python_20261025_225813_360105_14232.log

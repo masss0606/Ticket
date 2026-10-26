@@ -1,0 +1,35 @@
+[2026-10-20 19:42:39.037] [ticket_gui.py:19728] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20261020_194239_034713_19728.log
+[2026-10-20 19:42:39.553] [ticket_gui.py:19728] [gui] [gui] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20261020_194239_034713_19728.log
+[2026-10-20 19:43:27.716] [ticket_gui.py:19728] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 19:43:27.721] [ticket_gui.py:19728] [stdout]   auth_code 太旧(39202 分钟), 跳过纯接口刷新
+[2026-10-20 19:43:27.721] [ticket_gui.py:19728] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 19:43:27.723] [ticket_gui.py:19728] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 19:43:27.820] [ui_refresh.py:20004] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20261020_194239_034713_19728.log
+[2026-10-20 19:44:12.912] [ticket_gui.py:19728] [gui] [gui] 已有任务在运行, 请先停止
+[2026-10-20 19:44:28.342] [ticket_gui.py:19728] [gui] [gui] 已停止
+[2026-10-20 19:44:28.350] [ticket_gui.py:19728] [gui] [gui] UI 自动化失败
+[2026-10-20 19:44:31.065] [ticket_gui.py:19728] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 19:44:31.067] [ticket_gui.py:19728] [stdout]   auth_code 太旧(39203 分钟), 跳过纯接口刷新
+[2026-10-20 19:44:31.068] [ticket_gui.py:19728] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 19:44:31.069] [ticket_gui.py:19728] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 19:44:31.173] [ui_refresh.py:8756] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20261020_194239_034713_19728.log
+[2026-10-20 19:45:19.075] [ticket_gui.py:19728] [gui] [gui] 已停止
+[2026-10-20 19:45:19.083] [ticket_gui.py:19728] [gui] [gui] UI 自动化失败
+[2026-10-20 19:45:19.970] [ticket_gui.py:19728] [gui] [gui] $ python grab_ticket.py test
+[2026-10-20 19:45:20.052] [grab_ticket.py:15392] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20261020_194239_034713_19728.log
+[2026-10-20 19:45:20.280] [grab_ticket.py:15392] [stdout] ============================================================
+[2026-10-20 19:45:20.280] [grab_ticket.py:15392] [stdout] 测试模式: 只查询, 不下单
+[2026-10-20 19:45:20.281] [grab_ticket.py:15392] [stdout] 目标场次: 20261020 (周二) product_id=25293
+[2026-10-20 19:45:20.281] [grab_ticket.py:15392] [stdout] SKU(自动拼): 1210002529320261020:1
+[2026-10-20 19:45:20.281] [grab_ticket.py:15392] [stdout] token 来源: token.txt
+[2026-10-20 19:45:20.281] [grab_ticket.py:15392] [stdout] token 年龄: 2352247 秒 (39204 分钟)  [注意: 超过30分钟, 建议刷新]
+[2026-10-20 19:45:20.281] [grab_ticket.py:15392] [stdout] ------------------------------------------------------------
+[2026-10-20 19:45:20.429] [grab_ticket.py:15392] [stdout] [!] 轻量校验: token 已失效(40101)! 请运行: python grab_ticket.py token
+[2026-10-20 19:45:36.596] [ticket_gui.py:19728] [gui] [gui] token 无效, 先刷新…
+[2026-10-20 19:45:36.596] [ticket_gui.py:19728] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 19:45:36.599] [ticket_gui.py:19728] [stdout]   auth_code 太旧(39204 分钟), 跳过纯接口刷新
+[2026-10-20 19:45:36.602] [ticket_gui.py:19728] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 19:45:36.603] [ticket_gui.py:19728] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 19:45:36.703] [ui_refresh.py:11440] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20261020_194239_034713_19728.log
+[2026-10-20 19:46:10.158] [ticket_gui.py:19728] [gui] [gui] 已停止
+[2026-10-20 19:46:10.167] [ticket_gui.py:19728] [gui] [gui] UI 自动化失败

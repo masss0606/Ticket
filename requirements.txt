@@ -1,0 +1,5 @@
+requests>=2.32,<3
+PySide6>=6.6,<7
+Pillow>=10
+pywinauto>=0.6.9,<0.7
+mitmproxy>=11,<13

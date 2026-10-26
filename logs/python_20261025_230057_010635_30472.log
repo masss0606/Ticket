@@ -1,0 +1,12 @@
+[2026-10-25 23:00:57.012] [python.exe -m unittest:30472] [stdout] [日志] 本次运行日志: D:\Ticket\logs\python_20261025_230057_010635_30472.log
+[2026-10-25 23:00:57.013] [python.exe -m unittest:30472] [gui] [gui] 本次运行日志: D:\Ticket\logs\python_20261025_230057_010635_30472.log
+[2026-10-25 23:00:57.015] [python.exe -m unittest:30472] [gui] [gui] 检测 Token: 正在读取最新凭据并联网校验…
+[2026-10-25 23:00:57.019] [python.exe -m unittest:30472] [gui] [gui] Token 检测结果 [23:00:57]: 有效 | HTTP=200 | code=200 | 校验通过
+[2026-10-25 23:00:57.029] [python.exe -m unittest:30472] [gui] [gui] 本次运行日志: D:\Ticket\logs\python_20261025_230057_010635_30472.log
+[2026-10-25 23:00:57.031] [python.exe -m unittest:30472] [gui] [gui] 检测 Token: 正在读取最新凭据并联网校验…
+[2026-10-25 23:00:57.036] [python.exe -m unittest:30472] [gui] [gui] Token 检测结果 [23:00:57]: 未配置 | HTTP=- | code=- | 未配置 Token，请先点击刷新 Token；未发送校验请求
+[2026-10-25 23:00:57.042] [python.exe -m unittest:30472] [gui] [gui] 本次运行日志: D:\Ticket\logs\python_20261025_230057_010635_30472.log
+[2026-10-25 23:00:57.044] [python.exe -m unittest:30472] [gui] [gui] 检测 Token: 正在读取最新凭据并联网校验…
+[2026-10-25 23:00:57.048] [python.exe -m unittest:30472] [gui] [gui] Token 检测结果 [23:00:57]: 检测失败 | HTTP=None | code=None | 连接超时
+[2026-10-25 23:00:57.055] [python.exe -m unittest:30472] [gui] [gui] 本次运行日志: D:\Ticket\logs\python_20261025_230057_010635_30472.log
+[2026-10-25 23:00:59.258] [python.exe -m unittest:30472] [stdout] [ui] 按控件名称定位 发现: screen=(-1900, 255)

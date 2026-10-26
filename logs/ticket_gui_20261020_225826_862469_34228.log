@@ -1,0 +1,367 @@
+[2026-10-20 22:58:26.865] [ticket_gui.py:34228] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 22:58:27.268] [ticket_gui.py:34228] [gui] [gui] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 22:58:29.521] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 22:58:29.528] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39397 分钟), 跳过纯接口刷新
+[2026-10-20 22:58:29.530] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 22:58:29.531] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 22:58:29.623] [ui_refresh.py:29496] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 22:58:29.843] [ui_refresh.py:29496] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 22:58:31.848] [ui_refresh.py:29496] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 22:58:37.996] [ui_refresh.py:29496] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 22:58:40.579] [ui_refresh.py:29496] [stdout] [ui] 微信窗口 788x593, 缩放 x=1.31 y=0.72
+[2026-10-20 22:58:40.580] [ui_refresh.py:29496] [stdout] [ui] 识别发现: image=(85,223), 导航区=(39, 170, [])
+[2026-10-20 22:58:53.453] [ui_refresh.py:29496] [stdout] [ui] 识别小程序: image=(147,245), 菜单区=(40, 62, 232, [])
+[2026-10-20 22:58:55.864] [ui_refresh.py:29496] [stderr] D:\Ticket\ui_refresh.py:335: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+[2026-10-20 22:58:55.864] [ui_refresh.py:29496] [stderr]   px = list(box.getdata())
+[2026-10-20 22:58:55.865] [ui_refresh.py:29496] [stdout] [ui] 面板已渲染 (第1轮, 等1秒)
+[2026-10-20 22:58:55.865] [ui_refresh.py:29496] [stdout] [ui/3] 逐个尝试面板图标(以流量识别 wesais)…
+[2026-10-20 22:59:07.579] [ui_refresh.py:29496] [stdout] [ui] 使用 788x593 布局, 缩放 x=1.31 y=0.72
+[2026-10-20 22:59:07.579] [ui_refresh.py:29496] [stdout] [ui] 最近使用网格: [(293, 185), (380, 185), (467, 185), (553, 185), (640, 185), (727, 185), (293, 355), (380, 355), (467, 355), (553, 355), (640, 355), (727, 355)]
+[2026-10-20 22:59:07.580] [ui_refresh.py:29496] [stdout] [ui] 尝试面板图标 1/12 …
+[2026-10-20 22:59:08.867] [ui_refresh.py:29496] [stdout] [ui]   点击 image=(293,185)
+[2026-10-20 22:59:14.515] [ticket_gui.py:34228] [gui] [gui] 已停止
+[2026-10-20 22:59:14.530] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=62097)，请查看上方具体原因
+[2026-10-20 22:59:15.419] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 22:59:15.424] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39398 分钟), 跳过纯接口刷新
+[2026-10-20 22:59:15.424] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 22:59:15.425] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 22:59:15.532] [ui_refresh.py:35204] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 22:59:15.750] [ui_refresh.py:35204] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 22:59:15.753] [ui_refresh.py:35204] [stdout] [ui] 端口被占, 清理残留 mitmdump…
+[2026-10-20 22:59:20.165] [ui_refresh.py:35204] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 22:59:25.481] [ui_refresh.py:35204] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 22:59:27.833] [ui_refresh.py:35204] [stdout] [ui] 微信窗口 788x593, 缩放 x=1.31 y=0.72
+[2026-10-20 22:59:27.833] [ui_refresh.py:35204] [stdout] [ui] 识别发现: image=(31,224), 导航区=(40, 62, [])
+[2026-10-20 22:59:30.747] [ui_refresh.py:35204] [stdout] [ui] 识别小程序: image=(147,328), 菜单区=(40, 62, 232, [152, 192, 248, 289, 328, 368, 408, 449, 488, 528])
+[2026-10-20 22:59:33.120] [ui_refresh.py:35204] [stderr] D:\Ticket\ui_refresh.py:335: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+[2026-10-20 22:59:33.120] [ui_refresh.py:35204] [stderr]   px = list(box.getdata())
+[2026-10-20 22:59:52.662] [ui_refresh.py:35204] [stdout] [ui] 面板空白, 重试菜单(1/2)…
+[2026-10-20 22:59:53.914] [ui_refresh.py:35204] [stdout] [ui] 识别小程序: image=(147,328), 菜单区=(40, 62, 232, [152, 192, 248, 289, 328, 368, 408, 449, 488, 528])
+[2026-10-20 23:00:15.815] [ui_refresh.py:35204] [stdout] [ui] 面板空白, 重试菜单(2/2)…
+[2026-10-20 23:00:17.098] [ui_refresh.py:35204] [stdout] [ui] 识别小程序: image=(147,328), 菜单区=(40, 62, 232, [152, 192, 248, 289, 328, 368, 408, 449, 488, 528])
+[2026-10-20 23:00:38.936] [ui_refresh.py:35204] [stdout] [ui] 面板空白, 重试菜单(3/2)…
+[2026-10-20 23:00:39.455] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=1)，请查看上方具体原因
+[2026-10-20 23:02:16.039] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:02:16.042] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39401 分钟), 跳过纯接口刷新
+[2026-10-20 23:02:16.044] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:02:16.044] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:02:16.150] [ui_refresh.py:15312] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:02:16.361] [ui_refresh.py:15312] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:02:18.026] [ui_refresh.py:15312] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:02:23.423] [ui_refresh.py:15312] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:02:25.842] [ui_refresh.py:15312] [stdout] [ui] 微信窗口 788x593, 缩放 x=1.31 y=0.72
+[2026-10-20 23:02:25.842] [ui_refresh.py:15312] [stdout] [ui] 识别发现: image=(31,224), 导航区=(40, 62, [])
+[2026-10-20 23:02:28.746] [ui_refresh.py:15312] [stdout] [ui] 识别小程序: image=(147,328), 菜单区=(40, 62, 232, [152, 192, 248, 289, 328, 368, 408, 449, 488, 528])
+[2026-10-20 23:02:31.015] [ui_refresh.py:15312] [stderr] D:\Ticket\ui_refresh.py:335: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+[2026-10-20 23:02:31.015] [ui_refresh.py:15312] [stderr]   px = list(box.getdata())
+[2026-10-20 23:02:38.237] [ticket_gui.py:34228] [gui] [gui] 已停止
+[2026-10-20 23:02:38.246] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=62097)，请查看上方具体原因
+[2026-10-20 23:06:12.117] [ticket_gui.py:34228] [gui] [gui] $ python grab_ticket.py run --auto --refresh-min=3 --no-auto-pay
+[2026-10-20 23:06:12.232] [grab_ticket.py:32856] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:06:12.441] [grab_ticket.py:32856] [stdout] ============================================================
+[2026-10-20 23:06:12.441] [grab_ticket.py:32856] [stdout] product_id: 25292 (周三)
+[2026-10-20 23:06:12.441] [grab_ticket.py:32856] [stdout] 日期:       20261021
+[2026-10-20 23:06:12.441] [grab_ticket.py:32856] [stdout] SKU:        1210002529220261021:1
+[2026-10-20 23:06:12.441] [grab_ticket.py:32856] [stdout] 请求次数:   30  间隔: 100 ms
+[2026-10-20 23:06:12.441] [grab_ticket.py:32856] [stdout] token 年龄: 39405 分钟  [偏老, 注意]
+[2026-10-20 23:06:12.642] [grab_ticket.py:32856] [stdout] [!] token 已失效 (年龄 39404 分钟), 需要刷新
+[2026-10-20 23:06:12.642] [grab_ticket.py:32856] [stdout] [auto] 静默模式: 自动尝试刷新 token(无人值守)…
+[2026-10-20 23:06:12.642] [grab_ticket.py:32856] [stdout] [auto] 开始无人值守刷新 token…
+[2026-10-20 23:06:12.644] [grab_ticket.py:32856] [stdout]   auth_code 太旧(39405 分钟), 跳过纯接口刷新
+[2026-10-20 23:06:12.644] [grab_ticket.py:32856] [stdout] [auto] 纯接口刷新不可用, 复用微信 UI 流程刷新…
+[2026-10-20 23:06:12.740] [ui_refresh.py:32860] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:06:12.968] [ui_refresh.py:32860] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:06:12.981] [ui_refresh.py:32860] [stdout] [ui] 端口被占, 清理残留 mitmdump…
+[2026-10-20 23:06:17.755] [ui_refresh.py:32860] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:06:23.158] [ui_refresh.py:32860] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:06:25.517] [ui_refresh.py:32860] [stdout] [ui] 微信窗口 788x593, 缩放 x=1.31 y=0.72
+[2026-10-20 23:06:25.517] [ui_refresh.py:32860] [stdout] [ui] 识别发现: image=(31,224), 导航区=(40, 62, [])
+[2026-10-20 23:06:30.546] [ticket_gui.py:34228] [gui] [gui] 已停止
+[2026-10-20 23:06:30.553] [ticket_gui.py:34228] [gui] [gui] 任务结束 (exit=62097)
+[2026-10-20 23:06:31.347] [ui_refresh.py:32860] [stdout] [ui] 识别小程序: image=(147,328), 菜单区=(40, 62, 232, [152, 192, 248, 289, 328, 368, 408, 449, 488, 528])
+[2026-10-20 23:07:05.233] [ui_refresh.py:32860] [stdout] [ui] 面板空白, 重试菜单(1/2)…
+[2026-10-20 23:07:08.680] [ui_refresh.py:32860] [stderr] Traceback (most recent call last):
+[2026-10-20 23:07:08.682] [ui_refresh.py:32860] [stderr]   File "D:\Ticket\ui_refresh.py", line 603, in <module>
+[2026-10-20 23:07:08.682] [ui_refresh.py:32860] [stderr]     sys.exit(main())
+[2026-10-20 23:07:08.682] [ui_refresh.py:32860] [stderr]              ~~~~^^
+[2026-10-20 23:07:08.683] [ui_refresh.py:32860] [stderr]   File "D:\Ticket\ui_refresh.py", line 564, in main
+[2026-10-20 23:07:08.683] [ui_refresh.py:32860] [stderr]     if not navigate_to_panel(win):
+[2026-10-20 23:07:08.683] [ui_refresh.py:32860] [stderr]            ~~~~~~~~~~~~~~~~~^^^^^
+[2026-10-20 23:07:08.683] [ui_refresh.py:32860] [stderr]   File "D:\Ticket\ui_refresh.py", line 358, in navigate_to_panel
+[2026-10-20 23:07:08.683] [ui_refresh.py:32860] [stderr]     metrics = layout_metrics(win, image)
+[2026-10-20 23:07:08.683] [ui_refresh.py:32860] [stderr]   File "D:\Ticket\ui_refresh.py", line 57, in layout_metrics
+[2026-10-20 23:07:08.683] [ui_refresh.py:32860] [stderr]     width, height = image.size
+[2026-10-20 23:07:08.683] [ui_refresh.py:32860] [stderr]                     ^^^^^^^^^^
+[2026-10-20 23:07:08.683] [ui_refresh.py:32860] [stderr] AttributeError: 'NoneType' object has no attribute 'size'
+[2026-10-20 23:25:34.383] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:25:34.388] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39424 分钟), 跳过纯接口刷新
+[2026-10-20 23:25:34.392] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:25:34.394] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:25:34.490] [ui_refresh.py:31584] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:25:34.740] [ui_refresh.py:31584] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:25:46.495] [ui_refresh.py:31584] [stdout] [ui] 微信主窗口候选数: 0
+[2026-10-20 23:25:53.005] [ui_refresh.py:31584] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:25:58.488] [ui_refresh.py:31584] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:25:58.654] [ui_refresh.py:31584] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:25:59.781] [ui_refresh.py:31584] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:26:11.499] [ui_refresh.py:31584] [stdout] [ui] 小程序面板尚未渲染 (1/3)
+[2026-10-20 23:26:12.093] [ui_refresh.py:31584] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:26:13.190] [ui_refresh.py:31584] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:26:14.437] [ui_refresh.py:31584] [stdout] [ui] 小程序面板已渲染 (第2轮)
+[2026-10-20 23:26:14.437] [ui_refresh.py:31584] [stdout] [ui/3] 逐个尝试面板图标(以流量识别 wesais)…
+[2026-10-20 23:26:14.644] [ui_refresh.py:31584] [stdout] [ui] 使用当前窗口 774x586 的真实图标布局
+[2026-10-20 23:26:14.644] [ui_refresh.py:31584] [stdout] [ui] 最近使用网格: [(380, 180), (465, 180), (552, 180), (638, 180), (380, 352)]
+[2026-10-20 23:26:14.645] [ui_refresh.py:31584] [stdout] [ui] 尝试面板图标 1/5 …
+[2026-10-20 23:26:14.881] [ui_refresh.py:31584] [stdout] [ui]   点击 image=(380,180)
+[2026-10-20 23:26:22.900] [ui_refresh.py:31584] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:26:24.345] [ui_refresh.py:31584] [stdout] [ui] 尝试面板图标 2/5 …
+[2026-10-20 23:26:24.564] [ui_refresh.py:31584] [stdout] [ui]   点击 image=(465,180)
+[2026-10-20 23:26:32.583] [ui_refresh.py:31584] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:26:34.027] [ui_refresh.py:31584] [stdout] [ui] 尝试面板图标 3/5 …
+[2026-10-20 23:26:34.246] [ui_refresh.py:31584] [stdout] [ui]   点击 image=(552,180)
+[2026-10-20 23:26:38.731] [ticket_gui.py:34228] [gui] [gui] 已停止
+[2026-10-20 23:26:38.738] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=62097)，请查看上方具体原因
+[2026-10-20 23:26:44.529] [ticket_gui.py:34228] [gui] [gui] token 无效, 先刷新…
+[2026-10-20 23:26:44.530] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:26:44.535] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39426 分钟), 跳过纯接口刷新
+[2026-10-20 23:26:44.539] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:26:44.540] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:26:44.636] [ui_refresh.py:34008] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:26:44.863] [ui_refresh.py:34008] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:26:44.868] [ui_refresh.py:34008] [stdout] [ui] 端口被占, 清理残留 mitmdump…
+[2026-10-20 23:26:49.361] [ui_refresh.py:34008] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:26:54.700] [ui_refresh.py:34008] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:26:54.830] [ui_refresh.py:34008] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:26:55.938] [ui_refresh.py:34008] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:27:07.598] [ui_refresh.py:34008] [stdout] [ui] 小程序面板尚未渲染 (1/3)
+[2026-10-20 23:27:08.187] [ui_refresh.py:34008] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:27:09.304] [ui_refresh.py:34008] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:27:10.531] [ui_refresh.py:34008] [stdout] [ui] 小程序面板已渲染 (第2轮)
+[2026-10-20 23:27:10.532] [ui_refresh.py:34008] [stdout] [ui/3] 逐个尝试面板图标(以流量识别 wesais)…
+[2026-10-20 23:27:10.744] [ui_refresh.py:34008] [stdout] [ui] 使用当前窗口 774x586 的真实图标布局
+[2026-10-20 23:27:10.744] [ui_refresh.py:34008] [stdout] [ui] 最近使用网格: [(380, 180), (465, 180), (552, 180), (638, 180), (380, 352)]
+[2026-10-20 23:27:10.745] [ui_refresh.py:34008] [stdout] [ui] 尝试面板图标 1/5 …
+[2026-10-20 23:27:10.956] [ui_refresh.py:34008] [stdout] [ui]   点击 image=(380,180)
+[2026-10-20 23:27:18.992] [ui_refresh.py:34008] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:27:20.502] [ui_refresh.py:34008] [stdout] [ui] 尝试面板图标 2/5 …
+[2026-10-20 23:27:20.726] [ui_refresh.py:34008] [stdout] [ui]   点击 image=(466,180)
+[2026-10-20 23:27:27.035] [ticket_gui.py:34228] [gui] [gui] 已停止
+[2026-10-20 23:27:27.060] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=62097)，请查看上方具体原因
+[2026-10-20 23:28:43.440] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:28:43.443] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39428 分钟), 跳过纯接口刷新
+[2026-10-20 23:28:43.448] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:28:43.449] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:28:43.544] [ui_refresh.py:32888] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:28:43.772] [ui_refresh.py:32888] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:28:43.774] [ui_refresh.py:32888] [stdout] [ui] 端口被占, 清理残留 mitmdump…
+[2026-10-20 23:28:48.907] [ui_refresh.py:32888] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:28:54.726] [ui_refresh.py:32888] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:28:54.854] [ui_refresh.py:32888] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:28:55.987] [ui_refresh.py:32888] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:29:07.699] [ui_refresh.py:32888] [stdout] [ui] 小程序面板尚未渲染 (1/3)
+[2026-10-20 23:29:08.293] [ui_refresh.py:32888] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:29:09.403] [ui_refresh.py:32888] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:29:10.638] [ui_refresh.py:32888] [stdout] [ui] 小程序面板已渲染 (第2轮)
+[2026-10-20 23:29:10.638] [ui_refresh.py:32888] [stdout] [ui/3] 逐个尝试面板图标(以流量识别 wesais)…
+[2026-10-20 23:29:10.839] [ui_refresh.py:32888] [stdout] [ui] 使用当前窗口 774x586 的真实图标布局
+[2026-10-20 23:29:10.840] [ui_refresh.py:32888] [stdout] [ui] 最近使用网格: [(380, 180), (466, 180), (551, 180), (638, 180), (380, 352)]
+[2026-10-20 23:29:10.840] [ui_refresh.py:32888] [stdout] [ui] 尝试面板图标 1/5 …
+[2026-10-20 23:29:11.041] [ui_refresh.py:32888] [stdout] [ui]   点击 image=(380,180)
+[2026-10-20 23:29:19.086] [ui_refresh.py:32888] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:29:20.517] [ui_refresh.py:32888] [stdout] [ui] 尝试面板图标 2/5 …
+[2026-10-20 23:29:20.715] [ui_refresh.py:32888] [stdout] [ui]   点击 image=(466,180)
+[2026-10-20 23:29:28.741] [ui_refresh.py:32888] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:29:30.174] [ui_refresh.py:32888] [stdout] [ui] 尝试面板图标 3/5 …
+[2026-10-20 23:29:30.366] [ui_refresh.py:32888] [stdout] [ui]   点击 image=(551,180)
+[2026-10-20 23:29:38.392] [ui_refresh.py:32888] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:29:39.813] [ui_refresh.py:32888] [stdout] [ui] 尝试面板图标 4/5 …
+[2026-10-20 23:29:40.024] [ui_refresh.py:32888] [stdout] [ui]   点击 image=(638,180)
+[2026-10-20 23:29:48.044] [ui_refresh.py:32888] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:29:49.450] [ui_refresh.py:32888] [stdout] [ui] 尝试面板图标 5/5 …
+[2026-10-20 23:29:49.641] [ui_refresh.py:32888] [stdout] [ui]   点击 image=(379,352)
+[2026-10-20 23:29:57.668] [ui_refresh.py:32888] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:29:59.524] [ui_refresh.py:32888] [stdout] [ui] 未捕获到新 token
+[2026-10-20 23:29:59.524] [ui_refresh.py:32888] [stdout]   | [23:29:10] mmbiz.qpic.cn /mmbiz_png/nB9Tt14z4LL5Pjlc9MJTQZOY6x1C3AVPBkJkya8jfN3sRZHTribnZD8OJU25T21CQvQVvgN9T8KfK6CQACofvJA/640
+[2026-10-20 23:29:59.524] [ui_refresh.py:32888] [stdout]   | [23:29:10] mmbiz.qpic.cn /mmbiz_png/EbqicKdRnp0qUSVZJBhh0nZwTaXHS6Qm0icnaeFhTloMe9MzNWdrd7USeR9zJd3FtdTtbjUjQHFN7wehnuaTPyibQ/640
+[2026-10-20 23:29:59.524] [ui_refresh.py:32888] [stdout]   | [23:29:10] mmbiz.qpic.cn /sz_mmbiz_png/nGDT6vKQ2NcqBYA763GqH426Bwu8s7GR62G7DGjrbTztiabR8NTxq12SDPWJjdiamnY5ibicTCs8tpSEd6ZRSFxRuQ/640
+[2026-10-20 23:29:59.524] [ui_refresh.py:32888] [stdout]   | [23:29:10] mmbiz.qpic.cn /mmbiz_png/z3OstDn3B5vFsx04jDIcBYfahnxyEa3gDaVbSDvExWmCDV8Nrqs1UzPUzsWo8C9k5XhHgfpcohWgTdmcuUiauU2IhLibsfDaa4D9Hw1DnWKkw/640
+[2026-10-20 23:29:59.524] [ui_refresh.py:32888] [stdout]   | [23:29:10] mmbiz.qpic.cn /mmbiz_png/ZezvdBPFysQ91ncfGDA05ErjTCNmhaLVzwszIkRl4rrdvh997FszfsdS2OFmVKXuIaHFwYvCekDqCvx0ib66edg/640
+[2026-10-20 23:29:59.524] [ui_refresh.py:32888] [stdout]   | [23:29:10] mmbiz.qpic.cn /sz_mmbiz_png/8j3ricAzicZb1uMHRianKEjniag0Y5ZYzibe81gKws0knrX2fwpJzS8QCjQvQ0ZEnFsrvt81aFvwI3fZqFo9paMPRqw/640
+[2026-10-20 23:29:59.524] [ui_refresh.py:32888] [stdout]   | [23:29:10] mmbiz.qpic.cn /mmbiz_png/g7KsYCJwtAqcUiaY1HB8lVzxJl7s9iaMFsIXw8GnoOq8VRfGzUHOOkMibHAW5od1FaqBpn3piaMeYeGicTsRqIZiaeBA/640
+[2026-10-20 23:29:59.524] [ui_refresh.py:32888] [stdout]   | [23:29:10] mmbiz.qpic.cn /mmbiz_png/qib5oUglsFY9IVBCbh5pibrSbHYXcPiaIkex7VibNNYoyjTgR5505UFialBBmAMmQ6tFicT3KEho4y8uibyLKwwmA8Xzg/640
+[2026-10-20 23:29:59.524] [ui_refresh.py:32888] [stdout]   | [23:29:10] mmbiz.qpic.cn /mmbiz_png/zfROziaOXQhgMy724Hb4iczRzdESicYSwhEnmIX8XdeCGHtI5pVM3ojMJibXBJkCOq9feWhqc7W6VS0TQdZTRw8SibQ/640
+[2026-10-20 23:29:59.524] [ui_refresh.py:32888] [stdout]   | [23:29:10] mmbiz.qpic.cn /mmbiz_png/1X1smoic7CvHlvq5CSvnKzBzZraUBvkJrPxY70iaB3oxoqib2ETgibqwvkCerytlic7UqVyEnLxw8UicWrhul2d55Y2A/640
+[2026-10-20 23:29:59.625] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=1)，请查看上方具体原因
+[2026-10-20 23:30:07.955] [ticket_gui.py:34228] [gui] [gui] 等待 token 超时, 取消
+[2026-10-20 23:30:31.862] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:30:31.866] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39429 分钟), 跳过纯接口刷新
+[2026-10-20 23:30:31.869] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:30:31.870] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:30:31.961] [ui_refresh.py:33048] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:30:32.196] [ui_refresh.py:33048] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:30:33.848] [ui_refresh.py:33048] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:30:39.611] [ui_refresh.py:33048] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:30:39.739] [ui_refresh.py:33048] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:30:40.857] [ui_refresh.py:33048] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:30:52.530] [ui_refresh.py:33048] [stdout] [ui] 小程序面板尚未渲染 (1/3)
+[2026-10-20 23:30:53.124] [ui_refresh.py:33048] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:30:54.222] [ui_refresh.py:33048] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=61, top=386, right=835, bottom=972), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:30:55.445] [ui_refresh.py:33048] [stdout] [ui] 小程序面板已渲染 (第2轮)
+[2026-10-20 23:30:55.445] [ui_refresh.py:33048] [stdout] [ui/3] 逐个尝试面板图标(以流量识别 wesais)…
+[2026-10-20 23:30:55.665] [ui_refresh.py:33048] [stdout] [ui] 使用当前窗口 774x586 的真实图标布局
+[2026-10-20 23:30:55.665] [ui_refresh.py:33048] [stdout] [ui] 最近使用网格: [(380, 180), (465, 180), (552, 180), (638, 180), (380, 352)]
+[2026-10-20 23:30:55.665] [ui_refresh.py:33048] [stdout] [ui] 尝试面板图标 1/5 …
+[2026-10-20 23:30:55.876] [ui_refresh.py:33048] [stdout] [ui]   点击 image=(380,180)
+[2026-10-20 23:31:03.902] [ui_refresh.py:33048] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:31:05.339] [ui_refresh.py:33048] [stdout] [ui] 尝试面板图标 2/5 …
+[2026-10-20 23:31:05.532] [ui_refresh.py:33048] [stdout] [ui]   点击 image=(466,180)
+[2026-10-20 23:31:10.736] [ticket_gui.py:34228] [gui] [gui] 已停止
+[2026-10-20 23:31:10.759] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=62097)，请查看上方具体原因
+[2026-10-20 23:33:27.984] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:33:27.988] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39432 分钟), 跳过纯接口刷新
+[2026-10-20 23:33:27.993] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:33:27.994] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:33:28.093] [ui_refresh.py:2284] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:33:28.342] [ui_refresh.py:2284] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:33:28.364] [ui_refresh.py:2284] [stdout] [ui] 端口被占, 清理残留 mitmdump…
+[2026-10-20 23:33:33.449] [ui_refresh.py:2284] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:33:39.221] [ui_refresh.py:2284] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:33:39.350] [ui_refresh.py:2284] [stdout] [ui] 导航识别失败 (1/3): 无法识别微信左侧导航栏，请保持微信主窗口可见
+[2026-10-20 23:33:39.915] [ui_refresh.py:2284] [stdout] [ui] 导航识别失败 (2/3): 无法识别微信左侧导航栏，请保持微信主窗口可见
+[2026-10-20 23:33:40.474] [ui_refresh.py:2284] [stdout] [ui] 导航识别失败 (3/3): 无法识别微信左侧导航栏，请保持微信主窗口可见
+[2026-10-20 23:33:40.974] [ui_refresh.py:2284] [stdout] [ui] 无法确认小程序面板，停止刷新；请保持微信主窗口可见后重试
+[2026-10-20 23:33:41.574] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=1)，请查看上方具体原因
+[2026-10-20 23:33:49.181] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:33:49.184] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39433 分钟), 跳过纯接口刷新
+[2026-10-20 23:33:49.188] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:33:49.188] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:33:49.279] [ui_refresh.py:33120] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:33:49.531] [ui_refresh.py:33120] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:33:51.278] [ui_refresh.py:33120] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:33:57.066] [ui_refresh.py:33120] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:33:57.191] [ui_refresh.py:33120] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=188, top=365, right=962, bottom=951), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:33:58.304] [ui_refresh.py:33120] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=188, top=365, right=962, bottom=951), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:34:09.971] [ui_refresh.py:33120] [stdout] [ui] 小程序面板尚未渲染 (1/3)
+[2026-10-20 23:34:10.577] [ui_refresh.py:33120] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=188, top=365, right=962, bottom=951), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:34:11.688] [ui_refresh.py:33120] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=188, top=365, right=962, bottom=951), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:34:12.895] [ui_refresh.py:33120] [stdout] [ui] 小程序面板已渲染 (第2轮)
+[2026-10-20 23:34:12.895] [ui_refresh.py:33120] [stdout] [ui/3] 逐个尝试面板图标(以流量识别 wesais)…
+[2026-10-20 23:34:13.104] [ui_refresh.py:33120] [stdout] [ui] 使用当前窗口 774x586 的真实图标布局
+[2026-10-20 23:34:13.104] [ui_refresh.py:33120] [stdout] [ui] 最近使用网格: [(380, 180), (551, 180), (638, 180), (380, 352)]
+[2026-10-20 23:34:13.105] [ui_refresh.py:33120] [stdout] [ui] 尝试面板图标 1/4 …
+[2026-10-20 23:34:13.299] [ui_refresh.py:33120] [stdout] [ui]   点击 image=(380,180)
+[2026-10-20 23:34:21.322] [ui_refresh.py:33120] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:34:22.751] [ui_refresh.py:33120] [stdout] [ui] 尝试面板图标 2/4 …
+[2026-10-20 23:34:22.942] [ui_refresh.py:33120] [stdout] [ui]   点击 image=(466,180)
+[2026-10-20 23:34:28.799] [ticket_gui.py:34228] [gui] [gui] 已停止
+[2026-10-20 23:34:28.805] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=62097)，请查看上方具体原因
+[2026-10-20 23:37:50.461] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:37:50.464] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39437 分钟), 跳过纯接口刷新
+[2026-10-20 23:37:50.467] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:37:50.468] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:37:50.567] [ui_refresh.py:32992] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:37:50.829] [ui_refresh.py:32992] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:37:50.848] [ui_refresh.py:32992] [stdout] [ui] 端口被占, 清理残留 mitmdump…
+[2026-10-20 23:37:56.035] [ui_refresh.py:32992] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:38:01.893] [ui_refresh.py:32992] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:38:02.057] [ui_refresh.py:32992] [stdout] [ui] 导航识别失败 (1/3): 未识别到完整的微信主导航，停止点击以避免误操作
+[2026-10-20 23:38:02.663] [ui_refresh.py:32992] [stdout] [ui] 导航识别失败 (2/3): 未识别到完整的微信主导航，停止点击以避免误操作
+[2026-10-20 23:38:03.262] [ui_refresh.py:32992] [stdout] [ui] 导航识别失败 (3/3): 未识别到完整的微信主导航，停止点击以避免误操作
+[2026-10-20 23:38:03.763] [ui_refresh.py:32992] [stdout] [ui] 无法确认小程序面板，停止刷新；请保持微信主窗口可见后重试
+[2026-10-20 23:38:04.336] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=1)，请查看上方具体原因
+[2026-10-20 23:38:18.385] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:38:18.387] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39437 分钟), 跳过纯接口刷新
+[2026-10-20 23:38:18.390] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:38:18.391] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:38:18.478] [ui_refresh.py:35708] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:38:18.722] [ui_refresh.py:35708] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:38:20.355] [ui_refresh.py:35708] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:38:26.072] [ui_refresh.py:35708] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:38:26.189] [ui_refresh.py:35708] [stdout] [ui] 导航识别失败 (1/3): 未识别到完整的微信主导航，停止点击以避免误操作
+[2026-10-20 23:38:26.789] [ui_refresh.py:35708] [stdout] [ui] 导航识别失败 (2/3): 未识别到完整的微信主导航，停止点击以避免误操作
+[2026-10-20 23:38:27.378] [ui_refresh.py:35708] [stdout] [ui] 导航识别失败 (3/3): 未识别到完整的微信主导航，停止点击以避免误操作
+[2026-10-20 23:38:27.879] [ui_refresh.py:35708] [stdout] [ui] 无法确认小程序面板，停止刷新；请保持微信主窗口可见后重试
+[2026-10-20 23:38:28.378] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=1)，请查看上方具体原因
+[2026-10-20 23:38:38.047] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:38:38.050] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39437 分钟), 跳过纯接口刷新
+[2026-10-20 23:38:38.057] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:38:38.058] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:38:38.145] [ui_refresh.py:33824] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:38:38.377] [ui_refresh.py:33824] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:38:40.044] [ui_refresh.py:33824] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:38:45.697] [ui_refresh.py:33824] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:38:45.816] [ui_refresh.py:33824] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=80, top=330, right=854, bottom=916), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:38:46.930] [ui_refresh.py:33824] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=80, top=330, right=854, bottom=916), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:38:58.569] [ui_refresh.py:33824] [stdout] [ui] 小程序面板尚未渲染 (1/3)
+[2026-10-20 23:38:59.159] [ui_refresh.py:33824] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=80, top=330, right=854, bottom=916), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:39:00.268] [ui_refresh.py:33824] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=80, top=330, right=854, bottom=916), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:39:11.883] [ui_refresh.py:33824] [stdout] [ui] 小程序面板尚未渲染 (2/3)
+[2026-10-20 23:39:12.469] [ui_refresh.py:33824] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=80, top=330, right=854, bottom=916), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:39:13.565] [ui_refresh.py:33824] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=80, top=330, right=854, bottom=916), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:39:25.172] [ui_refresh.py:33824] [stdout] [ui] 小程序面板尚未渲染 (3/3)
+[2026-10-20 23:39:25.672] [ui_refresh.py:33824] [stdout] [ui] 无法确认小程序面板，停止刷新；请保持微信主窗口可见后重试
+[2026-10-20 23:39:25.733] [ticket_gui.py:34228] [gui] [gui] 已停止
+[2026-10-20 23:39:25.758] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=62097)，请查看上方具体原因
+[2026-10-20 23:40:08.988] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:40:08.991] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39439 分钟), 跳过纯接口刷新
+[2026-10-20 23:40:08.994] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:40:08.995] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:40:09.095] [ui_refresh.py:28840] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:40:09.335] [ui_refresh.py:28840] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:40:11.001] [ui_refresh.py:28840] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:40:16.941] [ui_refresh.py:28840] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:40:17.064] [ui_refresh.py:28840] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:40:18.171] [ui_refresh.py:28840] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:40:29.829] [ui_refresh.py:28840] [stdout] [ui] 小程序面板尚未渲染 (1/3)
+[2026-10-20 23:40:30.416] [ui_refresh.py:28840] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:40:31.522] [ui_refresh.py:28840] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:40:43.169] [ui_refresh.py:28840] [stdout] [ui] 小程序面板尚未渲染 (2/3)
+[2026-10-20 23:40:43.756] [ui_refresh.py:28840] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:40:44.853] [ui_refresh.py:28840] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:40:55.337] [ticket_gui.py:34228] [gui] [gui] 已停止
+[2026-10-20 23:40:55.363] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=62097)，请查看上方具体原因
+[2026-10-20 23:42:30.512] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:42:30.514] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39441 分钟), 跳过纯接口刷新
+[2026-10-20 23:42:30.518] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:42:30.519] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:42:30.605] [ui_refresh.py:6212] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:42:30.839] [ui_refresh.py:6212] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:42:30.856] [ui_refresh.py:6212] [stdout] [ui] 端口被占, 清理残留 mitmdump…
+[2026-10-20 23:42:35.633] [ui_refresh.py:6212] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:42:41.060] [ui_refresh.py:6212] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:42:41.164] [ui_refresh.py:6212] [stdout] [ui] 导航识别失败 (1/3): 无法识别微信左侧导航栏，请保持微信主窗口可见
+[2026-10-20 23:42:41.751] [ui_refresh.py:6212] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:42:42.858] [ui_refresh.py:6212] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:42:54.414] [ui_refresh.py:6212] [stdout] [ui] 小程序面板尚未渲染 (2/3)
+[2026-10-20 23:42:55.006] [ui_refresh.py:6212] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:42:56.102] [ui_refresh.py:6212] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:43:07.693] [ui_refresh.py:6212] [stdout] [ui] 小程序面板尚未渲染 (3/3)
+[2026-10-20 23:43:08.194] [ui_refresh.py:6212] [stdout] [ui] 无法确认小程序面板，停止刷新；请保持微信主窗口可见后重试
+[2026-10-20 23:43:08.554] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=1)，请查看上方具体原因
+[2026-10-20 23:44:10.910] [ticket_gui.py:34228] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 23:44:10.912] [ticket_gui.py:34228] [stdout]   auth_code 太旧(39443 分钟), 跳过纯接口刷新
+[2026-10-20 23:44:10.916] [ticket_gui.py:34228] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 23:44:10.917] [ticket_gui.py:34228] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 23:44:11.011] [ui_refresh.py:36120] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_225826_862469_34228.log
+[2026-10-20 23:44:11.245] [ui_refresh.py:36120] [stdout] [ui] 使用抓包工具: D:\Ticket\.venv\Scripts\mitmdump.exe
+[2026-10-20 23:44:12.835] [ui_refresh.py:36120] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-10-20 23:44:18.411] [ui_refresh.py:36120] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-10-20 23:44:18.540] [ui_refresh.py:36120] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:44:19.658] [ui_refresh.py:36120] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:44:31.278] [ui_refresh.py:36120] [stdout] [ui] 小程序面板尚未渲染 (1/3)
+[2026-10-20 23:44:31.864] [ui_refresh.py:36120] [stdout] [ui] 识别发现: image=(30,253), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, [(96, 120), (150, 169), (198, 217), (241, 265)])
+[2026-10-20 23:44:32.970] [ui_refresh.py:36120] [stdout] [ui] 识别小程序: image=(99,296), 窗口=ScreenRect(left=169, top=287, right=943, bottom=873), 布局=(32, 60, 302, [104, 152, 200, 248, 296])
+[2026-10-20 23:44:34.194] [ui_refresh.py:36120] [stdout] [ui] 小程序面板已渲染 (第2轮)
+[2026-10-20 23:44:34.194] [ui_refresh.py:36120] [stdout] [ui/3] 逐个尝试面板图标(以流量识别 wesais)…
+[2026-10-20 23:44:34.383] [ui_refresh.py:36120] [stdout] [ui] 使用当前窗口 774x586 的真实图标布局
+[2026-10-20 23:44:34.383] [ui_refresh.py:36120] [stdout] [ui] 最近使用网格: [(380, 180), (466, 180), (551, 180), (638, 180), (380, 352)]
+[2026-10-20 23:44:34.383] [ui_refresh.py:36120] [stdout] [ui] 尝试面板图标 1/5 …
+[2026-10-20 23:44:34.572] [ui_refresh.py:36120] [stdout] [ui]   点击 image=(380,180)
+[2026-10-20 23:44:42.592] [ui_refresh.py:36120] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:44:43.890] [ui_refresh.py:36120] [stdout] [ui] 尝试面板图标 2/5 …
+[2026-10-20 23:44:44.071] [ui_refresh.py:36120] [stdout] [ui]   点击 image=(466,180)
+[2026-10-20 23:44:52.092] [ui_refresh.py:36120] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-10-20 23:44:53.397] [ui_refresh.py:36120] [stdout] [ui] 尝试面板图标 3/5 …
+[2026-10-20 23:44:53.583] [ui_refresh.py:36120] [stdout] [ui] 面板布局已变化，重新导航后再试
+[2026-10-20 23:44:55.922] [ticket_gui.py:34228] [gui] [gui] 已停止
+[2026-10-20 23:44:55.954] [ticket_gui.py:34228] [gui] [gui] UI 自动化失败 (exit=62097)，请查看上方具体原因

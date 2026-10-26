@@ -1,0 +1,269 @@
+[2026-09-23 14:15:53.721] [ticket_gui.py:30404] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20260923_141553_719604_30404.log
+[2026-09-23 14:15:54.042] [ticket_gui.py:30404] [gui] [gui] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20260923_141553_719604_30404.log
+[2026-09-23 14:18:02.226] [ticket_gui.py:30404] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-09-23 14:18:02.229] [ticket_gui.py:30404] [stdout]   auth_code 太旧(859 分钟), 跳过纯接口刷新
+[2026-09-23 14:18:02.230] [ticket_gui.py:30404] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-09-23 14:18:02.231] [ticket_gui.py:30404] [gui] [gui] $ python ui_refresh.py
+[2026-09-23 14:18:02.348] [ui_refresh.py:24908] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20260923_141553_719604_30404.log
+[2026-09-23 14:18:04.237] [ui_refresh.py:24908] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-09-23 14:18:09.802] [ui_refresh.py:24908] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-09-23 14:18:12.018] [ui_refresh.py:24908] [stdout] [ui] 微信窗口 832x701, 缩放 x=1.38 y=0.85
+[2026-09-23 14:18:12.018] [ui_refresh.py:24908] [stdout] [ui] 识别发现: image=(33,257), 导航区=(40, 66, [])
+[2026-09-23 14:18:14.438] [ui_refresh.py:24908] [stdout] [ui] 识别小程序: image=(156,282), 菜单区=(40, 66, 245, [])
+[2026-09-23 14:18:16.590] [ui_refresh.py:24908] [stderr] D:\project\Ticket\ui_refresh.py:334: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+[2026-09-23 14:18:16.590] [ui_refresh.py:24908] [stderr]   px = list(box.getdata())
+[2026-09-23 14:18:16.591] [ui_refresh.py:24908] [stdout] [ui] 面板已渲染 (第1轮, 等1秒)
+[2026-09-23 14:18:16.591] [ui_refresh.py:24908] [stdout] [ui/3] 逐个尝试面板图标(以流量识别 wesais)…
+[2026-09-23 14:18:17.541] [ui_refresh.py:24908] [stdout] [ui] 使用 832x701 布局, 缩放 x=1.38 y=0.85
+[2026-09-23 14:18:17.541] [ui_refresh.py:24908] [stdout] [ui] 最近使用网格: [(308, 180), (394, 180), (478, 180), (566, 180), (658, 180), (738, 180), (308, 354), (394, 354), (478, 354), (566, 354), (658, 354), (738, 354)]
+[2026-09-23 14:18:17.542] [ui_refresh.py:24908] [stdout] [ui] 尝试面板图标 1/12 …
+[2026-09-23 14:18:18.515] [ui_refresh.py:24908] [stdout] [ui]   点击 image=(308,180)
+[2026-09-23 14:18:27.293] [ui_refresh.py:24908] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:18:28.473] [ui_refresh.py:24908] [stdout] [ui] 尝试面板图标 2/12 …
+[2026-09-23 14:18:29.386] [ui_refresh.py:24908] [stdout] [ui]   点击 image=(394,180)
+[2026-09-23 14:18:38.142] [ui_refresh.py:24908] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:18:39.371] [ui_refresh.py:24908] [stdout] [ui] 尝试面板图标 3/12 …
+[2026-09-23 14:18:40.324] [ui_refresh.py:24908] [stdout] [ui]   点击 image=(478,180)
+[2026-09-23 14:18:49.083] [ui_refresh.py:24908] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:18:50.356] [ui_refresh.py:24908] [stdout] [ui] 尝试面板图标 4/12 …
+[2026-09-23 14:18:51.290] [ui_refresh.py:24908] [stdout] [ui]   点击 image=(566,180)
+[2026-09-23 14:19:00.050] [ui_refresh.py:24908] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:19:01.287] [ui_refresh.py:24908] [stdout] [ui] 尝试面板图标 5/12 …
+[2026-09-23 14:19:02.220] [ui_refresh.py:24908] [stdout] [ui]   点击 image=(658,180)
+[2026-09-23 14:19:10.993] [ui_refresh.py:24908] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:19:12.243] [ui_refresh.py:24908] [stdout] [ui] 尝试面板图标 6/12 …
+[2026-09-23 14:19:13.234] [ui_refresh.py:24908] [stdout] [ui]   点击 image=(738,180)
+[2026-09-23 14:19:22.026] [ui_refresh.py:24908] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:19:23.345] [ui_refresh.py:24908] [stdout] [ui] 尝试面板图标 7/12 …
+[2026-09-23 14:19:26.584] [ticket_gui.py:30404] [gui] [gui] 已停止
+[2026-09-23 14:19:26.603] [ticket_gui.py:30404] [gui] [gui] UI 自动化失败
+[2026-09-23 14:19:26.605] [ticket_gui.py:30404] [gui] [gui] 已停止
+[2026-09-23 14:19:31.091] [ticket_gui.py:30404] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-09-23 14:19:31.093] [ticket_gui.py:30404] [stdout]   auth_code 太旧(861 分钟), 跳过纯接口刷新
+[2026-09-23 14:19:31.099] [ticket_gui.py:30404] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-09-23 14:19:31.100] [ticket_gui.py:30404] [gui] [gui] $ python ui_refresh.py
+[2026-09-23 14:19:31.225] [ui_refresh.py:26504] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20260923_141553_719604_30404.log
+[2026-09-23 14:19:31.525] [ui_refresh.py:26504] [stdout] [ui] 端口被占, 清理残留 mitmdump…
+[2026-09-23 14:19:35.308] [ui_refresh.py:26504] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-09-23 14:19:40.129] [ui_refresh.py:26504] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-09-23 14:19:42.199] [ui_refresh.py:26504] [stdout] [ui] 微信窗口 832x701, 缩放 x=1.38 y=0.85
+[2026-09-23 14:19:42.199] [ui_refresh.py:26504] [stdout] [ui] 识别发现: image=(33,257), 导航区=(40, 66, [])
+[2026-09-23 14:19:44.598] [ui_refresh.py:26504] [stdout] [ui] 识别小程序: image=(156,282), 菜单区=(40, 66, 245, [])
+[2026-09-23 14:19:46.442] [ui_refresh.py:26504] [stderr] D:\project\Ticket\ui_refresh.py:334: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+[2026-09-23 14:19:46.442] [ui_refresh.py:26504] [stderr]   px = list(box.getdata())
+[2026-09-23 14:20:02.364] [ui_refresh.py:26504] [stdout] [ui] 面板空白, 重试菜单(1/2)…
+[2026-09-23 14:20:03.177] [ui_refresh.py:26504] [stdout] [ui] 识别小程序: image=(156,282), 菜单区=(40, 66, 245, [])
+[2026-09-23 14:20:05.105] [ui_refresh.py:26504] [stdout] [ui] 面板已渲染 (第2轮, 等1秒)
+[2026-09-23 14:20:05.106] [ui_refresh.py:26504] [stdout] [ui/3] 逐个尝试面板图标(以流量识别 wesais)…
+[2026-09-23 14:20:05.923] [ui_refresh.py:26504] [stdout] [ui] 使用 832x701 布局, 缩放 x=1.38 y=0.85
+[2026-09-23 14:20:05.923] [ui_refresh.py:26504] [stdout] [ui] 最近使用网格: [(310, 185), (401, 185), (493, 185), (584, 185), (676, 185), (767, 185), (310, 355), (401, 355), (493, 355), (584, 355), (676, 355), (767, 355)]
+[2026-09-23 14:20:05.923] [ui_refresh.py:26504] [stdout] [ui] 尝试面板图标 1/12 …
+[2026-09-23 14:20:06.713] [ui_refresh.py:26504] [stdout] [ui]   点击 image=(310,185)
+[2026-09-23 14:20:15.490] [ui_refresh.py:26504] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:20:16.744] [ui_refresh.py:26504] [stdout] [ui] 尝试面板图标 2/12 …
+[2026-09-23 14:20:17.551] [ui_refresh.py:26504] [stdout] [ui]   点击 image=(401,185)
+[2026-09-23 14:20:26.333] [ui_refresh.py:26504] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:20:27.533] [ui_refresh.py:26504] [stdout] [ui] 尝试面板图标 3/12 …
+[2026-09-23 14:20:28.330] [ui_refresh.py:26504] [stdout] [ui]   点击 image=(493,185)
+[2026-09-23 14:20:37.117] [ui_refresh.py:26504] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:20:38.348] [ui_refresh.py:26504] [stdout] [ui] 尝试面板图标 4/12 …
+[2026-09-23 14:20:39.221] [ui_refresh.py:26504] [stdout] [ui]   点击 image=(584,185)
+[2026-09-23 14:20:48.005] [ui_refresh.py:26504] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:20:49.251] [ui_refresh.py:26504] [stdout] [ui] 尝试面板图标 5/12 …
+[2026-09-23 14:20:50.073] [ui_refresh.py:26504] [stdout] [ui]   点击 image=(676,185)
+[2026-09-23 14:20:58.890] [ui_refresh.py:26504] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:21:00.112] [ui_refresh.py:26504] [stdout] [ui] 尝试面板图标 6/12 …
+[2026-09-23 14:21:00.922] [ui_refresh.py:26504] [stdout] [ui]   点击 image=(767,185)
+[2026-09-23 14:21:09.726] [ui_refresh.py:26504] [stdout] [ui]   非 wesais 小程序, 关闭换下一个
+[2026-09-23 14:21:10.925] [ui_refresh.py:26504] [stdout] [ui] 尝试面板图标 7/12 …
+[2026-09-23 14:21:11.730] [ui_refresh.py:26504] [stdout] [ui]   点击 image=(310,355)
+[2026-09-23 14:21:13.532] [ui_refresh.py:26504] [stdout] [ui]   检测到 api.wesais.com 流量, 开对了! 等 token…
+[2026-09-23 14:21:14.045] [ticket_gui.py:30404] [gui] [gui] 检测到 token.txt 已更新, 重新验证…
+[2026-09-23 14:21:15.786] [ui_refresh.py:26504] [stdout] [ui] 成功! 新 token 年龄 2 秒
+[2026-09-23 14:21:15.787] [ui_refresh.py:26504] [stdout]   | [14:21:13] api.wesais.com /member/wxMember/miniLogin -> HTTP 200
+[2026-09-23 14:21:15.787] [ui_refresh.py:26504] [stdout]   | [14:21:13] >> got auth_code
+[2026-09-23 14:21:15.787] [ui_refresh.py:26504] [stdout]   | [14:21:13] api.wesais.com /member/wxMember/exToken -> HTTP 200
+[2026-09-23 14:21:15.787] [ui_refresh.py:26504] [stdout]   | [14:21:13] >> got token
+[2026-09-23 14:21:15.864] [ticket_gui.py:30404] [gui] [gui] UI 自动化成功
+[2026-09-23 14:21:16.034] [ticket_gui.py:30404] [gui] [gui] 检测到 token.txt 已更新, 重新验证…
+[2026-09-23 14:21:54.206] [ticket_gui.py:30404] [gui] [gui] $ python grab_ticket.py run --auto --refresh-min=3 --no-auto-pay
+[2026-09-23 14:21:54.321] [grab_ticket.py:22348] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20260923_141553_719604_30404.log
+[2026-09-23 14:21:54.617] [grab_ticket.py:22348] [stdout] ============================================================
+[2026-09-23 14:21:54.618] [grab_ticket.py:22348] [stdout] product_id: 25291 (周四)
+[2026-09-23 14:21:54.619] [grab_ticket.py:22348] [stdout] 日期:       20260924
+[2026-09-23 14:21:54.620] [grab_ticket.py:22348] [stdout] SKU:        1210002529120260924:1
+[2026-09-23 14:21:54.621] [grab_ticket.py:22348] [stdout] 请求次数:   30  间隔: 100 ms
+[2026-09-23 14:21:54.621] [grab_ticket.py:22348] [stdout] token 年龄: 1 分钟
+[2026-09-23 14:21:54.776] [grab_ticket.py:22348] [stdout] token 检查: 有效 (年龄 0 分钟)
+[2026-09-23 14:21:55.287] [grab_ticket.py:22348] [stdout] 时钟偏移:  -0.845s (服务器 - 本机)
+[2026-09-23 14:21:55.287] [grab_ticket.py:22348] [stdout] 目标: 服务器时间 00:00:00 (北京), 距开始 34685.6 秒
+[2026-09-23 14:22:06.511] [ticket_gui.py:30404] [gui] [gui] 已停止
+[2026-09-23 14:22:06.523] [ticket_gui.py:30404] [gui] [gui] 任务结束 (exit=62097)
+[2026-09-23 14:22:07.180] [ticket_gui.py:30404] [gui] [gui] token 有效, 直接开抢
+[2026-09-23 14:22:07.181] [ticket_gui.py:30404] [gui] [gui] $ python grab_ticket.py run --auto --refresh-min=3 --now
+[2026-09-23 14:22:07.282] [grab_ticket.py:22588] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20260923_141553_719604_30404.log
+[2026-09-23 14:22:07.573] [grab_ticket.py:22588] [stdout] ============================================================
+[2026-09-23 14:22:07.573] [grab_ticket.py:22588] [stdout] product_id: 25292 (周三)
+[2026-09-23 14:22:07.573] [grab_ticket.py:22588] [stdout] 日期:       20260923
+[2026-09-23 14:22:07.573] [grab_ticket.py:22588] [stdout] SKU:        1210002529220260923:1
+[2026-09-23 14:22:07.573] [grab_ticket.py:22588] [stdout] 请求次数:   30  间隔: 100 ms
+[2026-09-23 14:22:07.574] [grab_ticket.py:22588] [stdout] token 年龄: 1 分钟
+[2026-09-23 14:22:07.705] [grab_ticket.py:22588] [stdout] token 检查: 有效 (年龄 0 分钟)
+[2026-09-23 14:22:08.209] [grab_ticket.py:22588] [stdout] 时钟偏移:  -0.765s (服务器 - 本机)
+[2026-09-23 14:22:08.209] [grab_ticket.py:22588] [stdout] 立即模式: 马上下单(真实订单!)
+[2026-09-23 14:22:08.347] [grab_ticket.py:22588] [stdout] [1/30] [14:22:07.444] 已售罄: 提示:门票剩余数量不足，无法售卖
+[2026-09-23 14:22:08.551] [grab_ticket.py:22588] [stdout] [2/30] [14:22:07.682] 已售罄: 提示:门票剩余数量不足，无法售卖
+[2026-09-23 14:22:08.761] [grab_ticket.py:22588] [stdout] [3/30] [14:22:07.887] 已售罄: 提示:门票剩余数量不足，无法售卖
+[2026-09-23 14:22:08.964] [grab_ticket.py:22588] [stdout] [4/30] [14:22:08.097] 已售罄: 提示:门票剩余数量不足，无法售卖
+[2026-09-23 14:22:09.169] [grab_ticket.py:22588] [stdout] [5/30] [14:22:08.300] 已售罄: 提示:门票剩余数量不足，无法售卖
+[2026-09-23 14:22:09.169] [grab_ticket.py:22588] [stdout] 连续售罄, 停止重试
+[2026-09-23 14:22:09.204] [ticket_gui.py:30404] [gui] [gui] 任务结束 (exit=0)
+[2026-09-23 14:22:55.869] [ticket_gui.py:30404] [gui] [gui] token 有效, 直接开抢
+[2026-09-23 14:22:55.869] [ticket_gui.py:30404] [gui] [gui] $ python grab_ticket.py run --auto --refresh-min=3
+[2026-09-23 14:22:55.988] [grab_ticket.py:19332] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20260923_141553_719604_30404.log
+[2026-09-23 14:22:56.278] [grab_ticket.py:19332] [stdout] ============================================================
+[2026-09-23 14:22:56.278] [grab_ticket.py:19332] [stdout] product_id: 25291 (周四)
+[2026-09-23 14:22:56.278] [grab_ticket.py:19332] [stdout] 日期:       20260924
+[2026-09-23 14:22:56.278] [grab_ticket.py:19332] [stdout] SKU:        1210002529120260924:1
+[2026-09-23 14:22:56.278] [grab_ticket.py:19332] [stdout] 请求次数:   30  间隔: 100 ms
+[2026-09-23 14:22:56.278] [grab_ticket.py:19332] [stdout] token 年龄: 2 分钟
+[2026-09-23 14:22:56.402] [grab_ticket.py:19332] [stdout] token 检查: 有效 (年龄 1 分钟)
+[2026-09-23 14:22:56.896] [grab_ticket.py:19332] [stdout] 时钟偏移:  -0.640s (服务器 - 本机)
+[2026-09-23 14:22:56.897] [grab_ticket.py:19332] [stdout] 目标: 服务器时间 00:00:00 (北京), 距开始 34623.7 秒
+[2026-09-23 23:57:01.016] [grab_ticket.py:19332] [stdout] >> 距开抢 3.0 分钟: 预计到点年龄 34727 秒(当前34548秒, 阈值1500秒), 自动刷新(无人值守)…
+[2026-09-23 23:57:01.017] [grab_ticket.py:19332] [stdout] [auto] 开始无人值守刷新 token…
+[2026-09-23 23:57:01.032] [grab_ticket.py:19332] [stdout]   auth_code 太旧(576 分钟), 跳过纯接口刷新
+[2026-09-23 23:57:01.032] [grab_ticket.py:19332] [stdout] [auto] 纯接口刷新不可用, 复用微信 UI 流程刷新…
+[2026-09-23 23:57:01.184] [ui_refresh.py:18280] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20260923_141553_719604_30404.log
+[2026-09-23 23:57:16.170] [ui_refresh.py:18280] [stdout] [ui/1] 开启代理+mitm+冷启动小程序运行时…
+[2026-09-23 23:57:22.188] [ui_refresh.py:18280] [stdout] [ui/2] 代理环境导航到小程序面板(重建渲染)…
+[2026-09-23 23:57:27.324] [ui_refresh.py:18280] [stdout] [ui] 微信窗口 1042x877, 缩放 x=1.73 y=1.07
+[2026-09-23 23:57:27.324] [ui_refresh.py:18280] [stdout] [ui] 识别发现: image=(41,312), 导航区=(40, 82, [])
+[2026-09-23 23:57:30.191] [ui_refresh.py:18280] [stderr] Traceback (most recent call last):
+[2026-09-23 23:57:30.191] [ui_refresh.py:18280] [stderr]   File "D:\project\Ticket\ui_refresh.py", line 590, in <module>
+[2026-09-23 23:57:30.192] [ui_refresh.py:18280] [stderr]     sys.exit(main())
+[2026-09-23 23:57:30.192] [ui_refresh.py:18280] [stderr]              ^^^^^^
+[2026-09-23 23:57:30.192] [ui_refresh.py:18280] [stderr]   File "D:\project\Ticket\ui_refresh.py", line 551, in main
+[2026-09-23 23:57:30.192] [ui_refresh.py:18280] [stderr]     if not navigate_to_panel(win):
+[2026-09-23 23:57:30.193] [ui_refresh.py:18280] [stderr]            ^^^^^^^^^^^^^^^^^^^^^^
+[2026-09-23 23:57:30.193] [ui_refresh.py:18280] [stderr]   File "D:\project\Ticket\ui_refresh.py", line 356, in navigate_to_panel
+[2026-09-23 23:57:30.193] [ui_refresh.py:18280] [stderr]     image = snap(win)
+[2026-09-23 23:57:30.193] [ui_refresh.py:18280] [stderr]             ^^^^^^^^^
+[2026-09-23 23:57:30.193] [ui_refresh.py:18280] [stderr]   File "D:\project\Ticket\ui_refresh.py", line 48, in snap
+[2026-09-23 23:57:30.194] [ui_refresh.py:18280] [stderr]     return win.capture_as_image()
+[2026-09-23 23:57:30.194] [ui_refresh.py:18280] [stderr]            ^^^^^^^^^^^^^^^^^^^^^^
+[2026-09-23 23:57:30.194] [ui_refresh.py:18280] [stderr]   File "C:\Users\636\.conda\envs\ticket\Lib\site-packages\pywinauto\base_wrapper.py", line 565, in capture_as_image
+[2026-09-23 23:57:30.195] [ui_refresh.py:18280] [stderr]     pil_img_obj = ImageGrab.grab(box)
+[2026-09-23 23:57:30.195] [ui_refresh.py:18280] [stderr]                   ^^^^^^^^^^^^^^^^^^^
+[2026-09-23 23:57:30.196] [ui_refresh.py:18280] [stderr]   File "C:\Users\636\.conda\envs\ticket\Lib\site-packages\PIL\ImageGrab.py", line 96, in grab
+[2026-09-23 23:57:30.197] [ui_refresh.py:18280] [stderr]     offset, size, data = Image.core.grabscreen_win32(
+[2026-09-23 23:57:30.197] [ui_refresh.py:18280] [stderr]                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-09-23 23:57:30.197] [ui_refresh.py:18280] [stderr] OSError: screen grab failed
+[2026-09-23 23:57:30.277] [grab_ticket.py:19332] [stdout] [auto] 微信 UI 刷新失败 (exit=1)
+[2026-09-23 23:57:33.842] [grab_ticket.py:19332] [stdout] 刷新后二次校时: -0.589s
+[2026-09-23 23:59:56.041] [grab_ticket.py:19332] [stdout] 连接预热成功 (探测: code=200 )
+[2026-09-23 23:59:56.697] [grab_ticket.py:19332] [stdout] 二次校时:  -0.579s
+[2026-09-24 00:00:00.577] [grab_ticket.py:19332] [stdout] 开始抢票! 服务器时间: 23:59:59.999238
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout] [1/30] [00:00:00.000] >>> 成功!
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout] {
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]   "code": 200,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]   "data": {
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]     "list": {
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]       "extra": {
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "stadium_name": "奥冠体育华南农业大学综合体育馆",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "user_info": "马立涛 13790878398"
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]       },
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]       "item": [
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         {
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "app_id": 10101,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "back_sku_num": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "business_id": 10000863,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "c_time": 1790179200,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "company_id": 701,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "id": 26932384,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "item_price": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "order_item_no": "1201220011030136493101",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "order_no": "1201220011030136493",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "pay_price": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "refund_status": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "sale_price": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "sales_id": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "sku": "1210002529120260924",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "sku_img": "",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "sku_info": "2026-09-24 华农内部免费票 华农学生免费票",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "sku_name": "华农内部免费票",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "sku_num": 1,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "sku_price": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "sport_tag_id": 10,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "stadium_id": 11617,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]           "u_time": 1790179200
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         }
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]       ],
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]       "order": {
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "app_id": 10101,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "back_subtotal_count": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "business_id": 10000863,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "business_type": "1201",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "c_time": 1790179200,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "company_id": 701,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "deduct_price": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "id": 21998469,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "invoice_status": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "member_id": 1625094,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "notify_status": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "notify_url": "",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "order_from": 2,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "order_info": "",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "order_no": "1201220011030136493",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "order_price": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "order_status": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "order_subject": "销售购票",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "parent_order_no": "2013220001030136493",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "pay_code_status": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "pay_price": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "payment_time": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "payment_way1": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "payment_way1_price": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "payment_way2": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "payment_way2_price": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "refund_status": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "sale_price": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "sales_id": 0,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "stadium_id": 11617,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "sys_id": 12,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "total_count": 1,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "trade_cate_id": 12,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "trade_no": "0",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "trade_type_id": 1201,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]         "u_time": 1790179200
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]       }
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]     },
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]     "overdue_time": 480,
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]     "parent_order_no": "2013220001030136493",
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]     "payment_way": "0"
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]   },
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout]   "message": "SUCCESS"
+[2026-09-24 00:00:01.119] [grab_ticket.py:19332] [stdout] }
+[2026-09-24 00:00:01.120] [grab_ticket.py:19332] [stdout] ------------------------------------------------------------
+[2026-09-24 00:00:01.120] [grab_ticket.py:19332] [stdout] 抢票成功! 第 1 次, order_no: 1201220011030136493
+[2026-09-24 00:00:01.120] [grab_ticket.py:19332] [stdout] 订单已保存 success_order.json
+[2026-09-24 00:00:01.120] [grab_ticket.py:19332] [stdout] [支付] 检查订单金额和支付方式…
+[2026-09-24 00:00:01.384] [grab_ticket.py:19332] [stdout] [支付] 检查支付方式: 银联商务 (110)
+[2026-09-24 00:00:03.580] [grab_ticket.py:19332] [stdout] [支付] 零元订单已自动确认，订单状态=已支付
+[2026-09-24 00:00:03.580] [grab_ticket.py:19332] [stdout] [支付] 自动处理完成
+[2026-09-24 00:00:03.632] [ticket_gui.py:30404] [gui] [gui] 任务结束 (exit=0)
+[2026-09-24 12:49:58.383] [ticket_gui.py:30404] [gui] [gui] token 有效, 直接开抢
+[2026-09-24 12:49:58.385] [ticket_gui.py:30404] [gui] [gui] $ python grab_ticket.py run --auto --refresh-min=3
+[2026-09-24 12:49:58.560] [grab_ticket.py:4704] [stdout] [日志] 本次运行日志: D:\project\Ticket\logs\ticket_gui_20260923_141553_719604_30404.log
+[2026-09-24 12:49:58.871] [grab_ticket.py:4704] [stdout] ============================================================
+[2026-09-24 12:49:58.871] [grab_ticket.py:4704] [stdout] product_id: 25289 (周五)
+[2026-09-24 12:49:58.871] [grab_ticket.py:4704] [stdout] 日期:       20260925
+[2026-09-24 12:49:58.871] [grab_ticket.py:4704] [stdout] SKU:        1210002528920260925:1
+[2026-09-24 12:49:58.872] [grab_ticket.py:4704] [stdout] 请求次数:   30  间隔: 100 ms
+[2026-09-24 12:49:58.872] [grab_ticket.py:4704] [stdout] token 年龄: 1349 分钟  [偏老, 注意]
+[2026-09-24 12:49:59.019] [grab_ticket.py:4704] [stdout] token 检查: 有效 (年龄 1348 分钟)
+[2026-09-24 12:49:59.542] [grab_ticket.py:4704] [stdout] 时钟偏移:  -1.282s (服务器 - 本机)
+[2026-09-24 12:49:59.542] [grab_ticket.py:4704] [stdout] 目标: 服务器时间 00:00:00 (北京), 距开始 40201.7 秒
+[2026-09-24 17:57:26.284] [ticket_gui.py:30404] [gui] [gui] 已停止
+[2026-09-24 17:57:26.292] [ticket_gui.py:30404] [gui] [gui] 任务结束 (exit=62097)
+[2026-09-24 17:57:26.293] [ticket_gui.py:30404] [gui] [gui] 已停止

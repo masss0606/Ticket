@@ -1,0 +1,79 @@
+{
+  "code": 200,
+  "data": {
+    "list": {
+      "extra": {
+        "stadium_name": "奥冠体育华南农业大学综合体育馆",
+        "user_info": "马立涛 13790878398"
+      },
+      "item": [
+        {
+          "app_id": 10101,
+          "back_sku_num": 0,
+          "business_id": 10000863,
+          "c_time": 1790179200,
+          "company_id": 701,
+          "id": 26932384,
+          "item_price": 0,
+          "order_item_no": "1201220011030136493101",
+          "order_no": "1201220011030136493",
+          "pay_price": 0,
+          "refund_status": 0,
+          "sale_price": 0,
+          "sales_id": 0,
+          "sku": "1210002529120260924",
+          "sku_img": "",
+          "sku_info": "2026-09-24 华农内部免费票 华农学生免费票",
+          "sku_name": "华农内部免费票",
+          "sku_num": 1,
+          "sku_price": 0,
+          "sport_tag_id": 10,
+          "stadium_id": 11617,
+          "u_time": 1790179200
+        }
+      ],
+      "order": {
+        "app_id": 10101,
+        "back_subtotal_count": 0,
+        "business_id": 10000863,
+        "business_type": "1201",
+        "c_time": 1790179200,
+        "company_id": 701,
+        "deduct_price": 0,
+        "id": 21998469,
+        "invoice_status": 0,
+        "member_id": 1625094,
+        "notify_status": 0,
+        "notify_url": "",
+        "order_from": 2,
+        "order_info": "",
+        "order_no": "1201220011030136493",
+        "order_price": 0,
+        "order_status": 0,
+        "order_subject": "销售购票",
+        "parent_order_no": "2013220001030136493",
+        "pay_code_status": 0,
+        "pay_price": 0,
+        "payment_time": 0,
+        "payment_way1": 0,
+        "payment_way1_price": 0,
+        "payment_way2": 0,
+        "payment_way2_price": 0,
+        "refund_status": 0,
+        "sale_price": 0,
+        "sales_id": 0,
+        "stadium_id": 11617,
+        "sys_id": 12,
+        "total_count": 1,
+        "trade_cate_id": 12,
+        "trade_no": "0",
+        "trade_type_id": 1201,
+        "u_time": 1790179200
+      }
+    },
+    "overdue_time": 480,
+    "parent_order_no": "2013220001030136493",
+    "payment_way": "0"
+  },
+  "message": "SUCCESS"
+}

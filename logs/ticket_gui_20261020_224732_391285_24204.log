@@ -1,0 +1,29 @@
+[2026-10-20 22:47:32.394] [ticket_gui.py:24204] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_224732_391285_24204.log
+[2026-10-20 22:47:33.004] [ticket_gui.py:24204] [gui] [gui] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_224732_391285_24204.log
+[2026-10-20 22:47:45.018] [ticket_gui.py:24204] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 22:47:45.033] [ticket_gui.py:24204] [stdout]   auth_code 太旧(39387 分钟), 跳过纯接口刷新
+[2026-10-20 22:47:45.036] [ticket_gui.py:24204] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 22:47:45.039] [ticket_gui.py:24204] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 22:47:45.119] [ui_refresh.py:33720] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_224732_391285_24204.log
+[2026-10-20 22:47:45.437] [ticket_gui.py:24204] [gui] [gui] UI 自动化失败
+[2026-10-20 22:48:29.527] [ticket_gui.py:24204] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 22:48:29.530] [ticket_gui.py:24204] [stdout]   auth_code 太旧(39387 分钟), 跳过纯接口刷新
+[2026-10-20 22:48:29.531] [ticket_gui.py:24204] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 22:48:29.532] [ticket_gui.py:24204] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 22:48:29.605] [ui_refresh.py:15144] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_224732_391285_24204.log
+[2026-10-20 22:48:29.930] [ticket_gui.py:24204] [gui] [gui] UI 自动化失败
+[2026-10-20 22:48:47.293] [ticket_gui.py:24204] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 22:48:47.295] [ticket_gui.py:24204] [stdout]   auth_code 太旧(39388 分钟), 跳过纯接口刷新
+[2026-10-20 22:48:47.296] [ticket_gui.py:24204] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 22:48:47.298] [ticket_gui.py:24204] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 22:48:47.374] [ui_refresh.py:14992] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_224732_391285_24204.log
+[2026-10-20 22:48:47.674] [ticket_gui.py:24204] [gui] [gui] UI 自动化失败
+[2026-10-20 22:58:01.269] [ticket_gui.py:24204] [gui] [gui] 刷新 Token: 先试 auth_code 纯接口…
+[2026-10-20 22:58:01.275] [ticket_gui.py:24204] [stdout]   auth_code 太旧(39397 分钟), 跳过纯接口刷新
+[2026-10-20 22:58:01.275] [ticket_gui.py:24204] [gui] [gui] auth_code 不可用, 启动 UI 自动化(微信界面点击)…
+[2026-10-20 22:58:01.277] [ticket_gui.py:24204] [gui] [gui] $ python ui_refresh.py
+[2026-10-20 22:58:01.370] [ui_refresh.py:21524] [stdout] [日志] 本次运行日志: D:\Ticket\logs\ticket_gui_20261020_224732_391285_24204.log
+[2026-10-20 22:58:01.636] [ui_refresh.py:21524] [stdout] [ui] 缺少刷新依赖: pywinauto
+[2026-10-20 22:58:01.636] [ui_refresh.py:21524] [stdout] [ui] 当前 Python: D:\miniforge3\pythonw.exe
+[2026-10-20 22:58:01.636] [ui_refresh.py:21524] [stdout] [ui] 请在此环境安装依赖: "D:\miniforge3\python.exe" -m pip install -r "D:\Ticket\requirements.txt"
+[2026-10-20 22:58:01.683] [ticket_gui.py:24204] [gui] [gui] UI 自动化失败
